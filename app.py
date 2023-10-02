@@ -3,7 +3,7 @@ import os
 import pickle
 import requests
 
-movies_list_path = os.path.join("artifacts", "movies_list.pkl")
+movies_list_path = "./artifacts/movies_list.pkl"
 similarity_path = "./artifacts/similarity.pkl"
 
 movies = pickle.load(open(movies_list_path, 'rb'))
